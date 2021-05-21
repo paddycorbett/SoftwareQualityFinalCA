@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Controller {
 	
 	
-	private Rubric rubric;
+	private Rubric student1, student2, student3;
 	private ArrayList<Rubric> rubricsList;
 	
 	
@@ -16,6 +16,16 @@ public class Controller {
 	
 	public Controller() 
 	{
+		
+
+		student1 = new Rubric("Patrick","patrick","criteria1","criteria2","criteria3","criteria4","criteria5","criteria6","criteria7","criteria8","criteria9","criteria10",5,5,5,5,5,5,5,5,5,5);
+		student2 = new Rubric("Patrick","patrick","criteria1","criteria2","criteria3","criteria4","criteria5","criteria6","criteria7","criteria8","criteria9","criteria10",5,5,5,5,5,5,5,5,5,5);
+		student3 = new Rubric("Patrick","patrick","criteria1","criteria2","criteria3","criteria4","criteria5","criteria6","criteria7","criteria8","criteria9","criteria10",5,5,5,5,5,5,5,5,5,5);
+		
+		rubricsList.add(student1);
+		rubricsList.add(student2);
+		rubricsList.add(student3);
+	
 		
 	}
 	
